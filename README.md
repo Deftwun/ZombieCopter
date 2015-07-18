@@ -13,18 +13,24 @@ Art is not good
 Nil. Your a guy with a gun that shoots arrows for some reason and you have to shoot zombies. You have some soldier/police/debatable friends around who shoot arrows out of their guns too! Also friendly helicopters! And a drivable jeep & helicopter! Also when you kill a a soldier he turns into a zombie immediatley and drops a tomato/apple/massive cherry
 
 #Controls
-Esc             restart (sometimes doesn't work)
-r               toggle render physics
-p               pause
-numbers 1-6     change zoom level
-tab             debug console. type entity name in and now you can create that entity using cntrl key 
-left cntrl      debug spawn entity. Look in /android/assets/data/entities to see the things you can spawn 
-                (best examples: friend,enemy,civilian,zombie,friendCopter,enemyCopter,helicopter,jeep
+<ul>
+<li>w,a,s,d = move</li>
+<li>left mouse = fire weapon</li>
+<li>q = slo-mo</li>
+<li>e = enter/exit vehicles</li>
+</ul>
 
-w,a,s,d         move
-left mouse      fire weapon
-q               slo-mo
-e               enter/exit vehicles
+<ul>
+<li>Esc = restart</li>
+<li>r = toggle render physics</li>
+<li>p = pause</li>
+<li>numbers 1-6 = change zoom level</li>
+<li>tab = debug console. type entity name in and now you can create that entity using cntrl key </li>
+<li>left cntrl = debug spawn entity. Look in /android/assets/data/entities to see the things you can</li>
+</ul>
+
+Some entities you can type in the debug console to spawn are jeep,helicopter,friend,friendCopter,enemy,enemyCopter,zombie,or civilian.
+
 
 
 
