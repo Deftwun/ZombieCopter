@@ -12,7 +12,7 @@ A runnable jar is located in the /bin folder. You should be able clone this repo
 
 
 ###Story
-Nil. Your a guy with a gun that shoots arrows for some reason and you have to shoot zombies. You have some soldier/police/debatable friends around who shoot arrows out of their guns too! Also friendly helicopters! And a drivable jeep & helicopter! Also when you kill a a soldier he turns into a zombie immediatley and drops a tomato/apple/massive cherry
+Nil. Your a guy with an arrow firing gun that drives helicopters and jeeps while shooting zombies.
 
 ###Controls
 <ul>
