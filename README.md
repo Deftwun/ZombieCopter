@@ -43,14 +43,17 @@ Here are some entities you can try :*
 <ul>
 <li>Desktop version is the only one that works currently. There was an android project that worked but I haven't been optimizing for that so curretly there isn't one. (controls not really ironed out though) </li>
 <li>Helicopters lose thrust during slow motion</li>
+<li>gaps/lines appear between tiles during rendering because they have no padding</li>
 <li>Lots of planned features aren't yet implemented. Can't change weapons in game for example. (hint: play with the entity config files.)</li>
 <li>Art is NOT good and there is no sound or music but you can find all the assets in the desktop folder or inside the jar</li>
+
 </ul>
 
 
-###Awesome 3rd Party libs used:
+###Awesome 3rd Party libs & tools used
 <ul>
 <li><a href = "http://libgdx.badlogicgames.com/">libgdx</a></li>
+<li><a href = "https://github.com/libgdx/ashley">Ashley Entity framework</li>
 <li><a href = "http://box2d.org">Box2d: 2d Physics Engine</a></li>
 <li><a href = "http://www.mapeditor.org/">Tiled map editor</a></li>
 <li><a href = "https://pyxeledit.com/">Pyxel Edit (amazing pixel art tool)</a></li>
