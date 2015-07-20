@@ -9,7 +9,9 @@ Your a guy with an arrow firing gun that drives helicopters and jeeps while shoo
 ![ScreenShot](/ScreenShots/screenShot3.png?raw=true)
 
 ###How To Get It
-You should be able clone or fork this repo and import into eclipse and run from there if you want or there is a runnable jar located in the [/ZombieCopter!](/ZombieCopter!) folder. You'll need the eclipse gradle plugin to import them remember. All the interesting game code is located in [/core/src/com/deftwun/zombiecopter](https://github.com/Deftwun/ZombieCopter/tree/master/core/src/com/deftwun/zombiecopter)
+[Download the jar file](https://www.dropbox.com/s/o6pd9t3qw3brnss/ZombieCopter.jar?dl=0) and run it. You'll nee to have Java installed.
+
+You should also be able clone or fork this repo and import the project files into eclipse if you wan't to build it yourself. You'll need the eclipse gradle plugin though. All the interesting game code is located in [/core/src/com/deftwun/zombiecopter](https://github.com/Deftwun/ZombieCopter/tree/master/core/src/com/deftwun/zombiecopter)
 
 ###Controls
 
@@ -25,9 +27,8 @@ Debugging controls|Action
 Esc|restart
 P|pause
 # 1-6|Change zoom level
-Tab|Debug console. Type entity name in and now you can create that entity using cntrl key
-Left Cntrl|Spawn Entity (Select which type with debug console)
-
+Tab|Debug console.
+Left Cntrl|Spawn Entity
 
 
 ####Note
@@ -43,7 +44,7 @@ Here are some entities you can try :*
 <li>Desktop version is the only one that works currently. There was an android project that worked but I haven't been optimizing for that so curretly there isn't one. (controls not really ironed out though) </li>
 <li>Helicopters lose thrust during slow motion</li>
 <li>Lots of planned features aren't yet implemented. Can't change weapons in game for example. (hint: play with the entity config files.)</li>
-<li>Art is NOT good and there is no sound or music but you can find all the assets under [https://github.com/Deftwun/ZombieCopter/tree/master/desktop/assets/data](/desktop/assets/data) </li>
+<li>Art is NOT good and there is no sound or music but you can find all the assets in the desktop folder or inside the jar</li>
 </ul>
 
 
