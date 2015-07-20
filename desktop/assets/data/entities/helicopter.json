@@ -1,0 +1,23 @@
+{
+	name:helicopter,
+	model:helicopter,
+	image:COPTER_2.png,
+	team:player,
+	vehicle:true,
+	maxAltitude:100,
+	weapon: machineGun,
+	weaponOffsetX:2.9,
+ 	health:10,
+	collisionDamageThreshold: 50,
+ 	size:1,
+	damageEffect:sparks.p,
+	deathEffect:explosion.p,
+	gibbedEffect:shrapnel.p,
+	collector:true,
+	viewDistance:20,
+	helicopter:true,
+	speed:10,
+	lateralPower:2000,
+	verticalPower:2000,
+	maxAltitude:100
+}	

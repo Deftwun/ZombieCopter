@@ -1,0 +1,6 @@
+{
+    name:fruit
+    model:ball,
+    image:fruit.png
+    size:.4
+}

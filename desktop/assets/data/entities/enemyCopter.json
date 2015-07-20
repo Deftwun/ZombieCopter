@@ -1,0 +1,26 @@
+
+{
+	name:enemyCopter,
+	model:helicopter,
+	image:COPTER_2.png,
+	brain:true,
+	team:enemy,
+	weapon:rifle,
+	weaponOffsetX:3,
+	size:1f,
+	thinkTime:.17,
+ 	health:5,
+	collisionDamageThreshold: 50,
+	damageEffect:sparks.p,
+	deathEffect:explosion.p,
+	gibbedEffect:shrapnel.p,
+	collector:true,
+	viewDistance:18,
+	helicopter:true,
+	speed:5,
+	lateralPower:1000,
+	verticalPower:3000,
+	maxAltitude:30
+}	
+
+

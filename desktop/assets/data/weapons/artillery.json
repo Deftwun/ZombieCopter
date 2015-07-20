@@ -1,0 +1,8 @@
+{
+	name: "artillery",
+	projectileName: "artillery",
+	spreadAngle: 10,
+	bulletSpeed: 50,
+	range: 14,
+	cooldown: 1.2f,
+}

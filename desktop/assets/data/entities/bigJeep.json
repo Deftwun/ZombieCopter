@@ -1,0 +1,18 @@
+{
+   	name:bigJeep,
+    model:car,
+    car:true,
+    image:jeep.png,
+	vehicle:true,
+    team:player,
+    health:10,
+    size: .9f,
+    damageEffect:sparks.p,
+    deathEffect:explosion.p,
+    gibbedEffect:explosion.p,
+    viewDistance: 10,
+    frontWheelDrive:true
+    speed:50,
+    torque:5,
+    suspension:4
+}

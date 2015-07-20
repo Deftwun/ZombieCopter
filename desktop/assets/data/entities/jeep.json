@@ -1,0 +1,23 @@
+{
+   	name: jeep
+    model: car
+    image: "leftWheel=wheel.png,rightWheel=wheel.png,body=jeep_2.png,"
+    images: {leftWheel:wheel.png,rightWheel:wheel.png,body:jeep_2.png}
+    car: true
+	vehicle: true
+    team: player
+    health: 10
+    size: .6f
+    damageEffect: sparks.p
+    deathEffect: explosion.p
+    gibbedEffect: explosion.p
+    viewDistance: 10
+    frontWheelDrive: true
+    rearWheelDrive:true
+    speed: 60
+    torque: 1.5
+    suspension: 4.2
+    downForce:50
+    weapon: machineGun
+    weaponOffsetX:1.5
+}

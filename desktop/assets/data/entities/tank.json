@@ -1,0 +1,19 @@
+{
+   	name: tank,
+    model: car,
+    car: true,
+    image: tank.png,
+	vehicle:true,
+    team:player,
+    health:30,
+    size: 1f,
+    damageEffect: sparks.p,
+    deathEffect: explosion.p,
+    gibbedEffect: explosion.p,
+    viewDistance: 10,
+    speed:4,
+    suspension:3,
+    torque:9,
+    weapon: artillery,
+    weaponOffsetX:2
+}

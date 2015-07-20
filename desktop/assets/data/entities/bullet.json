@@ -1,0 +1,8 @@
+{
+	name:bullet,
+	model:bullet,
+	size:.25,
+	image:bullet.png,
+	collisionEffect:smallSpark.p,
+	damage:.5
+}

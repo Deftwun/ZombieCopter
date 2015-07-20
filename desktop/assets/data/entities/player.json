@@ -1,0 +1,23 @@
+{
+   	name:player,
+   	leader:true,
+    model:humanoid,
+    image:friendlySoldier_2.png,
+    images:{body:friendlySoldier_2.png,visionBody:gun.png}
+	player:true,
+	vehicleOperator:true,
+    team:player,
+    weapon: bow,
+    weaponOffsetX: 1,
+    health:5,
+    size:.4,
+    damageEffect:bloodParticle.p,
+    deathEffect:gibbed.p,
+    gibbedEffect:gibbed.p,
+    viewDistance: 10,
+	lookControlSpriteFlip: true
+    walker:true,
+    speed:5,    
+	jumpPower:7,
+	jumpCooldown:.5
+}

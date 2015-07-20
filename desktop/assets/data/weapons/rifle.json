@@ -1,0 +1,8 @@
+{
+	name: "rifle",
+	projectileName: "bullet",
+	spreadAngle: 10,
+	bulletSpeed: 40,
+	range: 15,
+	cooldown: .3,
+}

@@ -1,0 +1,17 @@
+{
+    name:civilian,
+    model:humanoid,
+    images:{body:civilian.png}
+    brain:true,
+    team:player,
+	collectable:true,
+    health:3,
+    size:.4
+    damageEffect:bloodParticle.p,
+    deathEffect:gibbed.p,
+    gibbedEffect:gibbed.p,
+    viewDistance: 7,
+	lookControlSpriteFlip: true
+    walker:true,
+    speed:6,    
+}

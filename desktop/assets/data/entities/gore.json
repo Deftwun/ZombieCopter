@@ -1,0 +1,7 @@
+{
+	name:gore,
+	model:gibs,
+	size:.2,
+	image:gib.png,
+	timeToLive:5,	
+}

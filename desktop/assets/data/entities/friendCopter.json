@@ -1,0 +1,25 @@
+{
+	name:friendCopter,
+	model:helicopter,
+	image:COPTER_2.png,
+	brain:true,
+	team:player,
+	weapon:rifle,
+	weaponOffsetX:3,
+	size:1f,
+	thinkTime:.17,
+ 	health:20,
+ 	corpse:friend
+	collisionDamageThreshold: 45,
+	damageEffect:sparks.p,
+	deathEffect:explosion.p,
+	gibbedEffect:shrapnel.p,
+	collector:true,
+	viewDistance:18,
+	helicopter:true,
+	speed:10,
+	lateralPower:2000,
+	verticalPower:2000,
+	maxAltitude:100
+}	
+

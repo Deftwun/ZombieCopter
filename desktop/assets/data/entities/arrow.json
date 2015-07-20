@@ -1,0 +1,8 @@
+{
+	name:arrow,
+	model:bullet,
+	size:.25,
+	image:arrow.png,
+	stickyFixture: fixture
+	damage:1
+}

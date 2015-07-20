@@ -1,0 +1,82 @@
+{
+entities: [
+	data/entities/player.json
+	data/entities/jeep.json
+	data/entities/shrapnel.json
+	data/entities/artillery.json
+	data/entities/civilian.json
+	data/entities/bullet.json
+	data/entities/zombie.json
+	data/entities/bigJeep.json
+	data/entities/arrow.json
+	data/entities/gore.json
+	data/entities/jeepCopter.json
+	data/entities/friend.json
+	data/entities/friendCopter.json
+	data/entities/fruit.json
+	data/entities/enemy.json
+	data/entities/enemyCopter.json
+	data/entities/helicopter.json
+	data/entities/tank.json
+	data/entities/meleeStrike.json
+]
+images: [
+	data/images/BlackGreenGrad.png
+	data/images/gib4.png
+	data/images/BlueYellowGrad.png
+	data/images/gib2.png
+	data/images/zombieArm.png
+	data/images/gore.png
+	data/images/bigBullet.png
+	data/images/wheel.png
+	data/images/touchBackground.png
+	data/images/arrow.png
+	data/images/jeep_2.png
+	data/images/tileSet2.png
+	data/images/touchKnob.png
+	data/images/shrapnel.png
+	data/images/fruit.png
+	data/images/civilian.png
+	data/images/COPTER.png
+	data/images/zombie.png
+	data/images/tileset.png
+	data/images/bullet.png
+	data/images/sparks.png
+	data/images/jeep.png
+	data/images/gun.png
+	data/images/gib3.png
+	data/images/meleeStrike.png
+	data/images/COPTER_2.png
+	data/images/gib5.png
+	data/images/soldier.png
+	data/images/BlackPurpleGrad.png
+	data/images/enemySoldier.png
+	data/images/friendlySoldier_2.png
+	data/images/gib.png
+	data/images/bg.png
+]
+levels: [
+	data/levels/level1.tmx
+	data/levels/tilesetTest.tmx.tF2528
+	data/levels/test.tmx
+	data/levels/sandbox.tmx
+	data/levels/testLevel.tmx
+	data/levels/tilesetTest.tmx
+]
+particles: [
+	data/particles/shrapnel.p
+	data/particles/sparks.p
+	data/particles/gibbed.p
+	data/particles/smallSpark.p
+	data/particles/explosion.p
+	data/particles/bloodParticle.p
+]
+weapons: [
+	data/weapons/machineGun.json
+	data/weapons/artillery.json
+	data/weapons/rifle.json
+	data/weapons/bow.json
+	data/weapons/machineGun.json~
+	data/weapons/fist.json
+]
+}

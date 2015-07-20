@@ -1,0 +1,7 @@
+{
+    name:meleeStrike,
+    model:bullet,
+    size:.5,
+    image:meleeStrike.png,
+    damage:.3
+}

@@ -1,0 +1,8 @@
+{
+	name:artillery,
+	model:bullet,
+	size:.5,
+	image:bigBullet.png,
+	collisionEffect:smallSpark.p,
+	damage:6
+}

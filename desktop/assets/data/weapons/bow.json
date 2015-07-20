@@ -1,0 +1,8 @@
+{
+	name: bow,
+	projectileName: arrow,
+	spreadAngle: 2,
+	bulletSpeed: 20,
+	range: 30,
+	cooldown: .4,
+}

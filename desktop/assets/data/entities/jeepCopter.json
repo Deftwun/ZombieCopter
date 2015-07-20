@@ -1,0 +1,25 @@
+{
+    name: jeepCopter
+    model: car
+    image: "leftWheel=wheel.png,rightWheel=wheel.png,body=jeep.png,"
+    car: true
+    helicopter: true 
+    vehicle: true
+    team: player
+    health: 10
+    size: .6f
+    damageEffect: sparks.p
+    deathEffect: explosion.p
+    gibbedEffect: explosion.p
+    viewDistance: 10
+    frontWheelDrive: true
+    rearWheelDrive:true
+    speed: 50
+    lateralPower: 6000,
+    verticalPower:10000
+    maxAltitude:500
+    torque: 3
+    suspension: 6
+    weapon: machineGun
+    weaponOffsetX:1.5
+}

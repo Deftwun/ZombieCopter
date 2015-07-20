@@ -1,0 +1,7 @@
+{
+	name:shrapnel,
+	model:gibs,
+	size:.3,
+	image:shrapnel.png,
+	timeToLive:5	
+}

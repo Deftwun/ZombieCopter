@@ -1,0 +1,8 @@
+{
+	name: machineGun,
+	projectileName: bullet,
+	bulletSpeed: 25,
+	range: 15,
+	spreadAngle: 15,
+	cooldown: .075
+}

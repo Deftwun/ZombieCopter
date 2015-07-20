@@ -1,0 +1,22 @@
+{
+    name:friend,
+    model:humanoid,
+    images:{body:soldier.png,visionBody:gun.png}
+    brain:true,
+    team:player,
+    weapon:bow,
+    weaponOffsetX: .75,
+    health:3,
+    drop:fruit
+    corpse:zombie
+    size:.4
+    damageEffect:bloodParticle.p,
+    deathEffect:gibbed.p,
+    gibbedEffect:gibbed.p,
+    viewDistance: 30,
+	lookControlSpriteFlip: true
+    walker:true,
+    speed:3,    
+    jumpPower:6,
+	jumpCooldown:.2
+}
