@@ -1,7 +1,6 @@
 # ZombieCopter
 
 ![ScreenShot](/ScreenShots/screenShot1.png?raw=true)
-![ScreenShot](/ScreenShots/screenShot2.png?raw=true)
 ![ScreenShot](/ScreenShots/screenShot3.png?raw=true)
 
 A physics based game made with libgdx that doesn't really have much direction anymore. Think I might refocus my efforts on something with a little better end game and smaller scope. I plan on using a lot of what I've learned here for things in the future. Hopefully it can be of use to others as well :)
