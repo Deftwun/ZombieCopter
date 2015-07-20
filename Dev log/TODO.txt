@@ -1,0 +1,62 @@
+Verify Working (TESTING)
+===============
+-Deserialize() doesn't reproduce joints (Bug in libgdx. Probably wait for next release)
+-walkers should avoid walking off a cliff (Current method not working correctly)
+
+
+
+High Priority
+===================
+-WHAT IS THE POINT OF THIS GAME!!!
+-Weapon switching
+-Guns use ammo
+-Weapon and ammo pickups
+-rename bullet to contact damage
+-Gun bursts. Semi auto style / 3 round burst and what hava ya
+-No padding between tileset tiles causing gaps and artifacts while rendering.
+-AI ledge hanging / climbing. How will the AI work with this
+-Is the 'PlayerComponent' really necessary anymore? Anything with a controller can be controlled when set to player via player system
+-player spawn point. Only spawns a player on one doesn't exist
+-Ragdoll corpses
+-explosions (area of effect damage) 
+-Helicopter thrust affected by frame rate. 
+
+
+Low Priority
+=============
+-Rendering order needs work (See SpriteLayer & SpriteCOmponent)
+-Construct physics models from json config files instead of being hardcoded
+-Thrusters don't work
+-rename to entityBounds to 'noSpawnZone'
+-Human models are less rigid (Head on a joint)
+-maybe a mech vehicle?
+-headshots (causes slo-mo)
+-Vehicles can have passengers
+-Vehicles become leaders
+-Entities will try and enter a leaders vehicle. (eject when leader ejects)
+-humanoid model is too small and hard to hit. Sprite doesn't line up on bottom
+-need some destructable obstacles (boxes/crates/barrels/trees/houses/etc...)
+-Animations
+-Does ledge hanging work?
+-Debug Render can show a text box over entities showing component info
+
+
+Done
+===================
+*Vehicles should face towards direction of movement not where aiming
+*Vehicles take on the team of operator
+*bullet spread on rifle too wide? 
+*bullets too dense?
+*Copters too fragile
+*Helicopter AI is a little weird
+*Vehicles keep moving after you exit them
+*remove unused AI systems
+*Decide on what types of objects collide (Vehicles & characters)
+*Raycast callback seperate class
+*Game has no way of knowing who killed who. Bullets can't be traced back to entities
+*Friendly fire or no?
+*people arms fly downward when they die (vision sensor stops being moved with body)
+*Pause (p)
+*Sticky projectiles (Arrows)
+*differentiate between item drop and corpse (2 seperate config strings);
+*Some weapons should have a line of sight/range option instead of firing a projectile (Melee combat)

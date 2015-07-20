@@ -1,0 +1,62 @@
+7/8/15
+------
+Not sure what to work on. Game needs serious direction. Tile padding issue would make things look much nicer. Before work on any mechanics though I need to reduce scope a bit and get a minimum viable product. What about helicopter rescue idea?  Might want to keep animations low so I don't need to spend alot of times on assets. 
+Also maybe I shoudl move this whole dev log to a jekyll site and keep it with the project?
+
+
+
+7/9/15
+------
+Got a lot done with camera smoothness & friend AI. Camera now moves towards player with adjustable speed instead of being glued to player position. Entity agents now follow leaders within sight when no enemies are in sight. removed old AI systems. Also characters (& vehicles) no longer collide with each other. Seems much better this way. 
+
+
+7/10/15
+-------
+Fixing bug where vision body flys downards on death. Think it has to do with LookComponent being removed. Maybe vision body should use a joint instead of body position being set manually by visionSystem. Implemented Joint. We'll see if it works.
+The problem is that the vision body is set to be dynamic with a sensor fixture. Try setting to kinematic (Entity Builder)
+Changed it so that look component is not destroyed on death. That way the vision body stays at the same position as the main body.
+
+!!!THIS NEEDS MORE WORK!!!!
+Joints not being deserialized correctly. Only time this happens right now is when exiting a vehicle. This is because models are built from config during deserialization instead of being built manually via entityBuilder. 
+EntityBuilder.deserialize->
+PhysicsComponent.read->
+PhysicsComponent.buildFromModel->
+Scene.createFromModel->
+Scene.createJoint->
+JointModel.toJoint   <<<<<< Problem is somewhere in here I think...
+!!!		!!!		!!!
+
+Seperated RayCast class from AgentSystem
+
+Created child component to determine if an entity is owned by another (ie: who created that bullet?)
+
+Death is now handled by damage system. Can track which entities killed which (Also works when firing projectiles/bullets). LifeTimeSystem is now only concerned with time to live components. 
+
+Corpse and item drop are two seperate things 
+
+Added some code to prevent walkers from walking off the edge of cliff if too high (Does it work?)
+
+Got started on sticky projectiles. Should work but I honestly dont think it will work as expected. Report back...
+
+7/11/15
+--------
+Fixed arm flying down issue. Jeep joints not being created though now for some reason.
+implemented pausing to help with debugging. Jeep still had vision joint. Removing that seemed to fix other joints. Not sure why, not gonna spend too much time thinking about it.
+
+LocalAnchor being set to anchor position causing vehicle joint issues during serialization. Still some other weird issue
+
+7/15/15
+--------
+Bug in WheelJoint class causing deserialization issue. Reported to libgdx repo. Bug closed.. I'll wait till the next release to update. Not sure how to update to nightlies and a lot to work on
+
+7/17/2015
+---------
+Sticky projectiles implemented. Should there be an arrow component & bullet component seperate from damage component which changes flight characteristics?
+
+7/19/2015
+---------
+TIL you can't use Gdx.file.internal("path").list() inside of jar. You need to use hardcoded paths or a manifest file. Assets class is essentially useless when it comes to jars now since its whole point was to avoid a manifest and automatically load new assets :/
+
+7/19/2015 (PM)
+-------
+Screw it! Posting the whole shabang to github and make something new lol
