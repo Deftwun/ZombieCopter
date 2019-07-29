@@ -26,7 +26,7 @@ Debugging controls|Action
 ------------------|------
 Esc|restart
 P|pause
-# 1-6|Change zoom level
+1-6|Change zoom level
 Tab|Debug console.
 Left Cntrl|Spawn Entity
 
