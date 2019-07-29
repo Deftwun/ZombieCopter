@@ -12,7 +12,11 @@ Your a guy with an arrow firing gun that drives helicopters and jeeps while shoo
 - Do you have java installed? No? [Get it here](https://www.java.com/download/)
 - [Download the jar file](https://www.dropbox.com/s/o6pd9t3qw3brnss/ZombieCopter.jar?dl=0) and run it.
 
-This hasn't been built in 4 years but u can give it a shot - requires gradle, libgdx and android studio i think. Core game code is here entity / component / system (ECS) structure [/core/src/com/deftwun/zombiecopter](https://github.com/Deftwun/ZombieCopter/tree/master/core/src/com/deftwun/zombiecopter)
+
+### How to Build It 
+This hasn't been built in 4 years but u can give it a shot - requires gradle, libgdx and android studio i think. I was using Eclipse so may need eclipse/gradle plugin?
+- (Core game code / logic is here entity-component-system (ECS) structure) [/core/src/com/deftwun/zombiecopter](https://github.com/Deftwun/ZombieCopter/tree/master/core/src/com/deftwun/zombiecopter)
+- (Data & assets are here)[https://github.com/Deftwun/ZombieCopter/tree/master/desktop/assets/data]
 
 ### Controls
 
